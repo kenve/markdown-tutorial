@@ -1,5 +1,5 @@
 # markdown-tutorial
-  markdown语法学习笔记
+  markdown笔记
 
 ##什么是markdown
 >Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性
@@ -201,7 +201,7 @@ __效果预览__
 //单个便签不解析，用‘``’包裹
 1. `<addr>` 便签不解析.
 
-//代码段高亮显示，格式：
+//代码段高亮显示，
 2. ```javascript
 	function fancyAlert(arg) {
  	 if(arg) {
@@ -209,6 +209,7 @@ __效果预览__
    }
  }
  ```
+ 格式：
  ```语言名称  
  代码
 ```
@@ -260,12 +261,11 @@ __效果预览__
 
 ##用户名 @mentions
 ```javascript
-@kenve
+Username @kenve
 ```
 __效果预览__ 
 
-@kenve
-
+Username @kenve
 ##视频
 ```javascript
 //格式：[![不存在时显示名称]（视频图标）]（视频地址）
@@ -281,7 +281,10 @@ __效果预览__
 
 :100:  :1234: 
 
-##
+##其他
+1. markdown可以解析HTML,所以可以内嵌html代码
+2. 还有一些没有做笔记，请灵活运用。
+
 ##参考资料
 * 维基百科：https://zh.wikipedia.org/wiki/Markdown
 * Mastering Markdown：https://guides.github.com/features/mastering-markdown/
