@@ -199,24 +199,89 @@ __效果预览__
 ##代码高亮（Code and Syntax Highlighting）
 ```javascirpt
 //单个便签不解析，用‘``’包裹
-`<addr>` 便签不解析.
+1. `<addr>` 便签不解析.
 
-//代码段高亮显示
+//代码段高亮显示，格式：
+2. ```javascript
+	function fancyAlert(arg) {
+ 	 if(arg) {
+    	$.facebox({div:'#foo'})
+   }
+ }
+ ```
+ ```语言名称  
+ 代码
+```
+
+```
+__效果预览__ 
+
+1. 单个便签：`<addr>` 便签不解析.
+
+2. 代码段：
 ```javascript
 	function fancyAlert(arg) {
  	 if(arg) {
     	$.facebox({div:'#foo'})
-  }
-}```
-
+   }
+ }
 ```
 
-`<addr>` 便签不解析.
+##任务列表（Task Lists）
+```javascript
+//‘-’(减号)加中括号，中括号内为空表示为选中，为x表示选中
+- [ ] 默认未选中的选项
 
+- [x] 默认选中的选项
 
+- [x] 默认选中的选项
+```
+__效果预览__ 
 
+- [ ] 默认未选中的选项
 
+- [x] 默认选中的选项
 
+- [x] 默认选中的选项
+
+##表格 （Tables）
+```javascirpt
+第一个表头 | 第二个表头
+------------ | -------------
+第一个单元格的内容 | 第二个单元格的呢日内容
+第一列的内容 | 第二列的内容
+```
+__效果预览__
+
+第一个表头 | 第二个表头
+------------ | -------------
+第一个单元格的内容 | 第二个单元格的呢日内容
+第一列的内容 | 第二列的内容
+
+##用户名 @mentions
+```javascript
+@kenve
+```
+__效果预览__ 
+
+@kenve
+
+##视频
+```javascript
+//格式：[![不存在时显示名称]（视频图标）]（视频地址）
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/RgKAFK5djSk)
+```
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/RgKAFK5djSk)
+##Emoji 表情
+```
+:100:  :1234: 
+```
+__效果预览__ 
+
+:100:  :1234: 
+
+##
 ##参考资料
 * 维基百科：https://zh.wikipedia.org/wiki/Markdown
 * Mastering Markdown：https://guides.github.com/features/mastering-markdown/
