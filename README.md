@@ -165,11 +165,53 @@ __效果预览：__
 
    [GitHub参数链接省略链接名称]: http://www.github.com
 
-##ddddd
+##Images（图片）
+```javascript
+1. Inline-style: 格式：！[不能加载图片时提示的文文字内容]（链接地址  鼠标悬停时提示的文字）
+![不能加载时提示的文字](https://github.com/kenve/markdown-tutorial/blob/master/images/ecode.png?raw=true "ECode Title Text 1")
+
+2. Reference-style: 
+![不能加载时提示的文字][ECode]
+
+[ECode]: https://github.com/kenve/markdown-tutorial/blob/master/images/ecode.png?raw=true "Logo Title Text 2"
+```
+__效果预览：__ 
+Inline-style: 
+![不能加载时提示的文字](https://github.com/kenve/markdown-tutorial/blob/master/images/ecode.png?raw=true "ECode Title Text 1") 
+
+Reference-style: 
+![不能加载时提示的文字][ECode]
+
+[ECode]: https://github.com/kenve/markdown-tutorial/blob/master/images/ecode.png?raw=true "Ecode Title Text 2"
 
 
+##引用（Blockquotes）
+```javascript
+//在要引用的文字前 加上‘>’大于号，前面不留空
+就像XXX说的
+>失败是成功之母
+```
+__效果预览__ 
 
+就像XXX说的
+>失败是成功之母
 
+##代码高亮（Code and Syntax Highlighting）
+```javascirpt
+//单个便签不解析，用‘``’包裹
+`<addr>` 便签不解析.
+
+//代码段高亮显示
+```javascript
+	function fancyAlert(arg) {
+ 	 if(arg) {
+    	$.facebox({div:'#foo'})
+  }
+}```
+
+```
+
+`<addr>` 便签不解析.
 
 
 
@@ -178,3 +220,4 @@ __效果预览：__
 ##参考资料
 * 维基百科：https://zh.wikipedia.org/wiki/Markdown
 * Mastering Markdown：https://guides.github.com/features/mastering-markdown/
+* 
